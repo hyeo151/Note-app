@@ -54,7 +54,7 @@ export default function RootLayout() {
           component="h2"
           sx={{ p: 2, fontFamily: "Permanent Marker" }}
         >
-          Ninja Notes
+          Shawn's Notes
         </Typography>
         <List>
           {menus.map((menu) => (
@@ -81,8 +81,8 @@ export default function RootLayout() {
           <Typography sx={{ flexGrow: 1, fontWeight: 500 }}>
             Today is the {moment().format("Do MMMM YYYY")}
           </Typography>
-          <Typography>Mario</Typography>
-          <Avatar alt="Remy Sharp" src="/public/mario-av.png" sx={{ ml: 2 }} />
+          <Typography>Shawn</Typography>
+          <Avatar alt="Remy Sharp" src="/public/profile.png" sx={{ ml: 2 }} />
         </Toolbar>
       </AppBar>
       <Box
